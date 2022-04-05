@@ -32,7 +32,7 @@ const UserSchema = new Schema(
             virtuals: true,
             getters: true
         },
-        id: true
+        id: false
     }
 );
 
